@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { BentoGrid, BentoGridItem } from "@/components/ui/bento-grid";
 
 export default function Home() {
@@ -22,7 +21,7 @@ export default function Home() {
               to achieve their goals and create an identity of their own. There
               will always be a hidden spark burning in them. We address and
               guide the people who reach us to ignite the spark in them using
-              the light and knowledge we provide according to one's need to
+              the light and knowledge we provide according to one&apos;s need to
               acquire the skills required. Dheepspark is a place where we ignite
               the hidden burning spark of the people who come to us and lighten
               their way to reach their milestones.
@@ -30,7 +29,8 @@ export default function Home() {
           </div>
           <div className="spark-gradient text-white rounded-lg p-8 mb-8 max-w-2xl mx-auto spark-shadow">
             <h3 className="text-2xl font-bold mb-4">
-              Are you Looking for Guidance to Ignite the Burning 'SPARK' in you?
+              Are you Looking for Guidance to Ignite the Burning
+              &apos;SPARK&apos; in you?
             </h3>
             <a
               href="https://docs.google.com/forms/d/e/1FAIpQLSfYneau6J4xoSYnXoY2umMxXMt7TA2G4LLfVCbX1SFARD-dfA/viewform"
@@ -302,8 +302,8 @@ export default function Home() {
                   Book a Free Consulting Call
                 </button>
                 <p className="text-sm text-gray-600 text-center">
-                  No commitment required. Let's discuss your goals and how we
-                  can help you achieve them.
+                  No commitment required. Let&apos;s discuss your goals and how
+                  we can help you achieve them.
                 </p>
               </div>
               <div>

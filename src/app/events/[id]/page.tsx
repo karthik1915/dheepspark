@@ -155,7 +155,7 @@ export default function EventPage({ params }: EventPageProps) {
               {event.content && (
                 <div className="mb-12">
                   <h3 className="text-2xl font-bold text-gray-900 mb-6">
-                    What You'll Learn
+                    What You&apos;ll Learn
                   </h3>
                   <div className="space-y-4">
                     {event.content.map((item, index) => (
@@ -173,7 +173,7 @@ export default function EventPage({ params }: EventPageProps) {
               )}
 
               <h3 className="text-2xl font-bold text-gray-900 mb-6">
-                What You'll Achieve
+                What You&apos;ll Achieve
               </h3>
               <div className="space-y-4">
                 {event.outcomes.map((outcome, index) => (
@@ -236,7 +236,7 @@ export default function EventPage({ params }: EventPageProps) {
               {event.quote && (
                 <div className="bg-orange-50 rounded-lg p-6">
                   <blockquote className="text-lg italic text-gray-700 mb-4">
-                    "{event.quote}"
+                    &ldquo;{event.quote}&rdquo;
                   </blockquote>
                   {event.author && (
                     <cite className="text-orange-600 font-semibold">
@@ -251,7 +251,7 @@ export default function EventPage({ params }: EventPageProps) {
                   Ready to Join?
                 </h3>
                 <p className="text-gray-700 mb-6">
-                  Don't miss this amazing opportunity!
+                  Don&apos;t miss this amazing opportunity!
                 </p>
                 <a
                   href="https://docs.google.com/forms/d/e/1FAIpQLSfYneau6J4xoSYnXoY2umMxXMt7TA2G4LLfVCbX1SFARD-dfA/viewform"

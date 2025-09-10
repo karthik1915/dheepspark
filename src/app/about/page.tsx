@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { BentoGrid, BentoGridItem } from "@/components/ui/bento-grid";
 
 export default function About() {
@@ -177,11 +176,11 @@ export default function About() {
                 <p className="text-lg text-gray-700 leading-relaxed">
                   We prefer and provide hyper personalized training and coaching
                   where we spend quality time with an individual, will get to
-                  know about them and guide them in the aspects of one's own
-                  need and make them overcome their shortcomings and enlighten
-                  them to acquire the skills. The sessions will be mostly one on
-                  one and we make the candidates comfortable and provide the
-                  training needed.
+                  know about them and guide them in the aspects of one&apos;s
+                  own need and make them overcome their shortcomings and
+                  enlighten them to acquire the skills. The sessions will be
+                  mostly one on one and we make the candidates comfortable and
+                  provide the training needed.
                 </p>
               </div>
             </div>
@@ -333,9 +332,9 @@ export default function About() {
                 </div>
               </div>
               <p className="text-gray-700 italic">
-                "Dheepspark helped me discover my true potential. The
+                &ldquo;Dheepspark helped me discover my true potential. The
                 personalized coaching approach made all the difference in my
-                career growth."
+                career growth.&rdquo;
               </p>
               <div className="flex text-orange-500 mt-4">★★★★★</div>
             </div>
@@ -350,8 +349,9 @@ export default function About() {
                 </div>
               </div>
               <p className="text-gray-700 italic">
-                "The one-on-one sessions were incredibly valuable. I learned
-                skills that I never thought I could master. Highly recommended!"
+                &ldquo;The one-on-one sessions were incredibly valuable. I
+                learned skills that I never thought I could master. Highly
+                recommended!&rdquo;
               </p>
               <div className="flex text-orange-500 mt-4">★★★★★</div>
             </div>
@@ -366,9 +366,9 @@ export default function About() {
                 </div>
               </div>
               <p className="text-gray-700 italic">
-                "As a student, the motivational programs helped me gain
+                &ldquo;As a student, the motivational programs helped me gain
                 confidence and clarity about my future. The team truly cares
-                about your success."
+                about your success.&rdquo;
               </p>
               <div className="flex text-orange-500 mt-4">★★★★★</div>
             </div>

@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { BentoGrid, BentoGridItem } from "@/components/ui/bento-grid";
 
 export default function Courses() {

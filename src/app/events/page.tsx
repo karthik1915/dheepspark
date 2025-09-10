@@ -1,11 +1,9 @@
 import Image from "next/image";
-import { BentoGrid, BentoGridItem } from "@/components/ui/bento-grid";
-import { events, getUpcomingEvents, getPastEvents } from "@/lib/events";
+import { events, getUpcomingEvents } from "@/lib/events";
 import Link from "next/link";
 
 export default function Events() {
   const upcomingEvents = getUpcomingEvents();
-  const pastEvents = getPastEvents();
 
   return (
     <main className="min-h-screen pt-20">
@@ -259,7 +257,7 @@ export default function Events() {
       <section className="py-20 px-4 bg-gradient-to-br from-orange-50 to-yellow-50">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-4xl font-bold text-gray-900 mb-6">
-            Don't Miss Out on Our Events
+            Don&apos;t Miss Out on Our Events
           </h2>
           <p className="text-xl text-gray-700 mb-8">
             Stay updated with our latest events and be the first to know about
